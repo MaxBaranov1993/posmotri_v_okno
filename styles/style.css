@@ -243,9 +243,8 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
+.search-form__label:has(input[type="checkbox"]:hover) {
   text-decoration: underline;
-  text-decoration-thickness: 1px;
 }
 
 /* Чекбоксы */
